@@ -1027,6 +1027,7 @@ section {
     display: block;
     background-color: #2d2d2d;
     padding-top: 0;
+    padding-bottom: 0px!important;
 }
 
 .testimonials .section-header {
@@ -1883,4 +1884,33 @@ section {
         text-align: center;
         padding: 2px 0;
     }
+}
+.img-sup{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.txt-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.all-center-end{
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.d-cont{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
 }
